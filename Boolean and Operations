@@ -1,0 +1,7 @@
+Money = input("How much money you got?")
+if Money == 5:
+    print('Poor!')
+elif Money == 15:
+    print('Average.')
+elif Money == 30:
+    print('What??')
