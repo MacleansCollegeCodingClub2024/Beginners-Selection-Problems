@@ -1,0 +1,8 @@
+animal = 'elephant'
+answer = 'nil'
+while not answer == 'elephant':
+    answer = input('Pick a random animal to sneak into your moms trolley. (all lowercase)')
+    if answer == 'elephant':
+        print('Fail :(')
+    else:
+        print('Success :D')
