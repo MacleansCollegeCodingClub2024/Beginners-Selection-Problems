@@ -1,0 +1,5 @@
+def main():
+    time = int(input("Enter the current time (Range: 0-24): "))
+    print(["good night.", "good morning.", "good afternoon.", "good evening."][time//6])
+if __name__ == "__main__":
+    main()
